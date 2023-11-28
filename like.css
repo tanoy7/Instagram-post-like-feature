@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monsterrat;
+}
+body{
+    background-color:  #00000084;
+}
+#main{
+    height: 350px;
+    width: 270px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 180px;
+    position: relative;
+   
+    
+}
+#main img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+
+    
+}
+#main i{
+    position: absolute;
+    color: white;
+    font-size: 65px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)scale(0);
+    opacity: 0;
+    transition: transform 0.5s;
+    
+    
+   
+
+}
